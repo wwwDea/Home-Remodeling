@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <style>
+         * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #F5F5F5;
+  background-color: #F5F5F5;
+}
+div{
+  background-color: #F5F5F5;
+  
+}
+.subnav{
+  display: flex;
+  padding: 40px;
+  width: 100%;
+  justify-content: flex-end; 
+  
+  
+
+  
+}
+.subnav a {
+  text-decoration: none;
+  color: #1A1918;
+  margin: 15px; 
+  cursor: pointer;
+  font-size:small;
+}
+
+
+.branding{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 700px;
+  
+}
+
+.logo{
+  width: 40px; 
+  height: 30px;
+  cursor: pointer;
+  
+  
+  
+}
+.title{
+  font-size: 24px;
+  font-weight: 600;
+  color:black;
+  cursor: pointer;
+  
+  
+}
+footer {
+      background-color: #f5f5f5;
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .copyright {
+      margin-top: 20px;
+      
+      font-size: 13px;
+      
+    }
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      
+    }
+    h{
+    font-size: 40px;
+    color: black;
+    margin-left: 550px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+    h2{
+    font-size: 40px;
+    color: black;
+    margin-left:670px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+    h3{
+    font-size: 40px;
+    color: black;
+    margin-left:610px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+    h4{
+    font-size: 40px;
+    color: white;
+    margin-left:550px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+    h5{
+    font-size: 40px;
+    color: white;
+    margin-left:500px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    font-size: 1em;
+  color: black;
+  margin-left: 380px;
+  line-height: 2;
+  margin-top: 30px;
+  
+}
+p1{
+    font-size: 1em;
+  color: black;
+  margin-left: 530px;
+  line-height: 2;
+  margin-top: 30px;
+  
+}
+p2{
+    font-size: 1em;
+  color: black;
+  margin-left: 450px;
+  line-height: 2;
+  margin-top: 70px;
+  
+}
+p3{
+  font-size: 1em;
+  color: black;
+  line-height: 2; 
+}
+p4{
+  font-size: 1em;
+  color: black;
+  line-height: 2; 
+}
+p5{
+  font-size: 1em;
+  color: black;
+  line-height: 2; 
+}
+
+
+.kitchen{
+    height: 650px;
+}
+.container{
+   background-color:  #F5F5F5;
+   justify-content: flex-end;
+   padding: 50px; 
+}
+.container2{
+    background-color: #F5F5F5;
+    display: flex;
+  padding: 50px;
+  width: 1500px;
+  justify-content: flex-end; 
+}
+
+ .banner-img1{
+    width: 360px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 5px;
+    
+ }
+ .banner-img2{
+    width: 367px;
+    height: 400px;
+    
+ }
+ .banner-img3{
+    width: 367px;
+    height: 400px;
+    
+ }
+ .banner-img4{
+    width: 365px;
+    height: 400px;
+
+
+
+ }
+ .banner-img5 {
+    width: 368px;
+    height: 400px;
+  }
+ .banner-img6{
+    width: 368px;
+    height: 400px;
+  }
+ .banner-img7{
+    width: 366px;
+    height: 400px;
+ }
+ .banner-img8{
+    width: 365px;
+    height: 400px;
+ }
+
+
+
+ 
+ .banner-text1{
+    margin-left: 460px;
+margin-top: 50px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .banner-text4{
+    margin-left: 1200px;
+    margin-top: 50px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .banner-text5{
+    margin-left: 1210px;
+    margin-top: 100px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ 
+ .banner-text2{
+    margin-left: 495px;
+    margin-top: 70px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .banner-text7{
+    margin-left: 135px;
+    margin-top:5px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .banner-text8{
+    margin-left: 110px;
+    margin-top:25px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .banner-text11{
+    margin-left: 855px;
+    margin-top:25px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .banner-text12{
+    margin-left: 890px;
+    margin-top:45px;
+  position: absolute;
+  background: none;
+  font-size: 25px;
+  color: black;
+  font: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+ .banner-text3{
+    margin-top: 170px;
+    position: absolute;
+    color: black;
+    background: none;
+    margin-left: 450px;
+ }
+ 
+ .banner-text6{
+    margin-top: 180px;
+    position: absolute;
+    color: black;
+    background: none;
+    
+    margin-left: 1200px;
+ }
+ 
+ .banner-text9{
+    margin-top: 140px;
+    position: absolute;
+    color: black;
+    background: none;
+    
+    margin-left: 830px;
+ }
+ 
+ .banner-text10{
+    margin-top: 130px;
+    position: absolute;
+    color: black;
+    background: none;
+    
+    margin-left: 90px;
+ }
+ 
+.black{
+  width: 100%;
+  height:400px;
+  background-color: black;
+}
+.btn{
+  padding: 10px 20px;
+  margin-top: 90px;
+  background: white;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  margin-left: 660px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #1A1918;
+  margin-left: auto;
+  align-self: center;
+}
+
+
+
+@media screen and (max-width: 932px) {
+   
+  .subnav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+  .branding {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  body {
+  font-family: Arial, sans-serif;
+  color:white;
+}
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 16px;
+    color: #1A1918;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+     h4, h5 {
+    font-size: 24px;
+    margin-left: 20px ;
+  }
+  h{font-size: 24px;
+    margin-left: 85px ;
+
+  }
+  h2{
+    font-size: 24px;
+    margin-left: 150px ;
+  }
+  h3{
+    font-size: 24px;
+    margin-left: 110px ;
+  }
+  h4{
+    font-size: 24px;
+    margin-left: 90px ;
+  }
+h5{
+  font-size: 24px;
+    margin-left: 50px ;
+}
+  p, p1, p2, p3, p4, p5 {
+    font-size: 14px;
+    margin-left: 20px ;
+    margin-right: 20px;
+  }
+
+  .kitchen {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-card img {
+    width: 90% ;
+    height: auto ;
+    margin-bottom: 20px;
+  }
+
+  .banner-text1, .banner-text2, .banner-text3,
+  .banner-text4, .banner-text5, .banner-text6,
+  .banner-text7, .banner-text8, .banner-text9,
+  .banner-text10, .banner-text11, .banner-text12 {
+    position: static;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .btn {
+    margin: 20px auto;
+    display: block;
+    
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  .social-icons {
+    font-size: 16px;
+  }
+}
+
+
+ </style>
+ 
+    <script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+    <div class="subnav">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.9zyo9hLQqGuUci_dpPGIdwHaHa&pid=Api&P=0&h=220" alt="House Icon" class="logo">              
+        <h1 class="title">M&B Remodeling</h1>
+        <div class="hamburger" id="hamburger">
+    <i class="fa fa-bars"></i>
+  </div>
+        <div class="branding"></div>
+        <a href="web.html">Home</a>
+        <a href="index.html">About</a>         
+        <a href="Services.html">Services</a>         
+        <a href="web.html">Work</a>        
+        <a href="web.html">Contact</a>
+        <a href="web.html">123-456-7890</a>
+        
+  </div>
+      </div>
+      
+      <h>About M&B Remodeling</h>
+      <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click<br> me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you <br>like on your page. I’m a great place for you to tell a story and let your users know a little more about you</p>
+
+      <img src="https://static.wixstatic.com/media/74f558_ee8a9ea2d0db4a52b264bf379cd6a276~mv2_d_4000_2447_s_4_2.jpeg/v1/fill/w_1901,h_823,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_ee8a9ea2d0db4a52b264bf379cd6a276~mv2_d_4000_2447_s_4_2.jpeg" class="kitchen">
+    
+      <h2>Our Process</h2>
+      <p1>I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p1>
+       <p2>Just click “Edit Text” or double click me to add your own content and make changes to the font.</p2>
+      
+      <div class="banner-card">
+        <div class="banner-text1">Preconstruction</div>
+        <div class="banner-text2">Design</div>
+        <div class="banner-text3">I'm a paragraph. Click here to<br> add your own text and edit<br> me. Let your users get to<br> know you.</div>
+        <div class="banner-text4">Design &<br> Construction</div>
+        <div class="banner-text5">Estimate</div>
+        <div class="banner-text6">I'm a paragraph. Click here to<br> add your own text and edit<br> me. Let your users get to<br> know you.</div>
+        <img class="banner-img1"src="https://static.wixstatic.com/media/74f558_b261ab6879d14b0bbc9800ec41ba91fd~mv2_d_6208_4258_s_4_2.jpeg/v1/fill/w_475,h_525,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_b261ab6879d14b0bbc9800ec41ba91fd~mv2_d_6208_4258_s_4_2.jpeg">
+        <img class="banner-img2" src="https://tse1.mm.bing.net/th?id=OIP.cq2F1ltSo2frtm9UZqhVawHaDt&pid=Api&P=0&h=220">
+        <img class="banner-img3" src="https://static.wixstatic.com/media/74f558_0e46dc42786945daad2d2535524461c3~mv2_d_6048_4032_s_4_2.jpeg/v1/fill/w_475,h_525,fp_0.43_0.30,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_0e46dc42786945daad2d2535524461c3~mv2_d_6048_4032_s_4_2.jpeg">
+        <img class="banner-img4" src="https://tse1.mm.bing.net/th?id=OIP.cq2F1ltSo2frtm9UZqhVawHaDt&pid=Api&P=0&h=220">
+        <div class="banner-text7">On-Site</div>
+        <div class="banner-text8">Consultations</div>
+        <div class="banner-text9">I'm a paragraph. Click here to<br> add your own text and edit<br> me. Let your users get to<br> know you.</div>
+        <div class="banner-text10">I'm a paragraph. Click here to<br> add your own text and edit<br> me. Let your users get to<br> know you.</div>
+        <div class="banner-text11">The Finishing</div>
+        <div class="banner-text12">Touches</div>
+        <img class="banner-img5" src="https://tse1.mm.bing.net/th?id=OIP.cq2F1ltSo2frtm9UZqhVawHaDt&pid=Api&P=0&h=220">
+        <img class="banner-img6" src="https://static.wixstatic.com/media/74f558_ac023650dfaf4026972886b8c33e06e9~mv2_d_4000_2983_s_4_2.jpg/v1/fill/w_475,h_525,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_ac023650dfaf4026972886b8c33e06e9~mv2_d_4000_2983_s_4_2.jpg">
+        <img class="banner-img7" src="https://tse1.mm.bing.net/th?id=OIP.cq2F1ltSo2frtm9UZqhVawHaDt&pid=Api&P=0&h=220">
+    <img class="banner-img8" src="https://static.wixstatic.com/media/74f558_d26f60b4ce744d9c9e82426a09cd84b5~mv2_d_5616_3744_s_4_2.jpeg/v1/fill/w_475,h_525,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_d26f60b4ce744d9c9e82426a09cd84b5~mv2_d_5616_3744_s_4_2.jpeg">
+    </div>
+    <h3>Our Quality Guarantee</h3>
+    <p3>
+      I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click ‘Edit Text’ or double click me to add your own content and make changes to the font. 
+      Feel free to drag and drop me anywhere you like on your page. I'm a great place for you to tell a story and let your users know a little more about you.
+    </p3><br>
+      
+    <p4>
+      This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. 
+      Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different 
+      from your competitors. Make your company stand out and show your visitors who you are.
+    </p4><br><br>
+    <p5>
+      At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! 
+      Keep up to date with New Releases and what’s Coming Soon in Wix ellaneous in Support. Feel free to tell us what you think and give us feedback in the Wix Forum. 
+      If you’d like to benefit from a professional designer’s touch, head to the Wix Arena and connect with one of our Wix Pro designers. Or if you need more help 
+      you can simply type your questions into the Support Forum and get instant answers. To keep up to date with everything Wix, including tips and things we think 
+      are cool, just head to the Wix Blog.
+    </p5>
+      
+      <div class="black">
+        <h4>Create your dream home.</h4>
+        <h5>Tell us about your project today.</h5>
+        <button class="btn">Get a Free Estimate</button>
+  </div>
+      
+      
+      
+      
+  
+  <footer>
+      
+    <div class="copyright">
+          © 2035 by M&B Remodelling. Powered and secured by <a href="https://wix.com" target="_blank">Wix</a>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook-f"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube-play"></i></a>
+        </div>
+      </footer> 
+      
+
+
+
+      
+      
+      
+      
+      
+      
+     
+</body>
+</html>
